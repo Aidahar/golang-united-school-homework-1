@@ -1,4 +1,4 @@
-package main
+package solution
 
 import (
 	"fmt"
@@ -7,7 +7,10 @@ import (
 )
 
 func main() {
+	GetMessage()
+}
 
+func GetMessage() {
 	word := emoji.Sprint("Hello :world_map:!")
 	fmt.Println(word)
 }
