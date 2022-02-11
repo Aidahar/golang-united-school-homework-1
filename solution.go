@@ -7,6 +7,5 @@ import (
 )
 
 func GetMessage() {
-	word := emoji.Sprint("Hello :world_map:!")
-	fmt.Println(word)
+	fmt.Println(emoji.Sprint("Hello :world_map:!"))
 }
